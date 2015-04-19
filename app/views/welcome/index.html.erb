@@ -1,34 +1,28 @@
 <body>
   <header>
-  <ul>
-    <li class="title">FRY UP GENERATOR</a></li>
-    <li class="total-calories">000</li>
-    <li class="calories">CALORIES</li>
-    <li><button class="reset-button" id="PageRefresh">Reset</button></li>
-    
-  </ul>
+    <ul>
+      <li class="title">FRY UP GENERATOR</a></li>
+      <li class="total-calories">000</li>
+      <li class="calories">CALORIES</li>
+      <li><button class="reset-button" id="PageRefresh">Reset</button></li>
+    </ul>
   </header>
 
+    <div class="plate">
+        <div class="plate-items" id="one"></div>
+    </div>   
 
-  <div class="plate">
-      <div class="plate-items" id="one"></div>
-  </div>   
+      <div class="container">
+        <div class="food-items">
+          <% @foods.each do |food| %> 
+          <div class="idv-item" data-calories="<%= food.calories %>"> 
+            <%= image_tag food.image %>
+            <% food.name %>
+          </div>
+           <% end %> 
+        </div>
+      </div>
 
-<div class="container">
-  <div class="food-items">
-    <% @foods.each do |food| %> 
-    <div class="idv-item" data-calories="<%= food.calories %>"> 
-    <%= image_tag food.image %>
-    <% food.name %>
-  </div>
-
-  <% end %> 
-    </div>
-</div>
-
-    
-       
-
-
+      <h2> DRAG ANY ITEM ONTO THE PLATE </h2> 
 </body>
 

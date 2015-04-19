@@ -516,18 +516,15 @@
      border-spacing: 0;
  }
 
+ /*PAGE LOAD */
+
 
 /*MAIN BODY*/
 
-
-
 body {
- background-image: url(tablecloth_background.png);
- font-family: 'Economica', sans-serif; 
-
+  background-image: url(tablecloth_background.png);
+  font-family: 'Economica', sans-serif; 
 }
-
-/*PAGE LOAD */
 
 
 /*NAV BAR */
@@ -545,7 +542,6 @@ ul {
   margin-left: -10px;
   position: relative;
   margin: 0;
-/*  margin-right: -10px;*/
 }
 
 .title {
@@ -557,7 +553,6 @@ ul {
 
 .total-calories {
   float: right;
-  /*padding-right: 20px; */
   font-size: 72px; 
   padding-right: 50px;
 }
@@ -569,50 +564,47 @@ ul {
 }
 
 img {
- height: 120px; 
- width: 120px; 
+  height: 120px; 
+  width: 120px; 
  }
 
  /* PLATE */
 
 .plate {
-border: dotted 1px black;
-float: right;
-width: 700px;
-height: 700px;
-background-image: url(plate.png); margin:0 auto;
-background-size: 100%;
-margin-top: -50px; 
-
-
+  border: dotted 1px black;
+  float: right;
+  width: 700px;
+  height: 700px;
+  background-image: url(plate.png); margin:0 auto;
+  background-size: 100%;
+  margin-top: -50px; 
 }
-
 
 .plate-items {
   height: 400px; 
   width: 400px;
-  border: 1px solid black; 
+ /* border: 1px solid black; */
   margin: 0 auto;
   margin-top: 100px; 
   z-index: 0; 
   text-align: center;
 }
 
-
 /*FOOD ITEMS*/
 
 .food-items {
- border: 1px solid black; 
- width: 235px; 
- text-align: center; 
-
+/*  border: 1px solid black; */
+  width: 235px; 
+  text-align: center; 
+  margin-left: 150px;
+  padding-top: 30px; 
 }
 
 .idv-item {
- border: 1px solid black; 
- width: 100px; 
- height: 100px; 
- display: inline-block;
+/*  border: 1px solid black;*/ 
+  width: 100px; 
+  height: 100px; 
+  display: inline-block;
 }
 
 .food-items .idv-item {
@@ -620,21 +612,27 @@ margin-top: -50px;
 }
 
 .plate-items .idv-item {
-width: 80px; 
-height: 80px; 
+  width: 80px; 
+  height: 80px; 
 }
 
 /*RESET BUTTON */
 
 .reset-button {
-margin-top: 15px; 
- border: 3px solid black; 
- width: 100px; 
- height: 50px; 
- font-family: 'Economica', sans-serif; 
- font-size: 36px;
- background-color: white; 
-
+  margin-top: 15px; 
+  border: 3px solid black; 
+  width: 100px; 
+  height: 50px; 
+  font-family: 'Economica', sans-serif; 
+  font-size: 36px;
+  background-color: white; 
 }
 
+h2 {
+ font-size: 36px;
+ color: white; 
+ background-color: red;
+ width: 400px; 
+ margin-left: 80px; 
+}
 

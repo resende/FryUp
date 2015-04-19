@@ -30,8 +30,6 @@ $(function(){
   $( ".idv-item" ).draggable({ revert: 'invalid', helper: 'clone'});
 
 
-
-
   $(".plate-items").droppable({ 
     accept: ".idv-item",
     drop: function(event, ui) {
@@ -56,11 +54,8 @@ $(function(){
   });
 
     $('#PageRefresh').click(function() {
-        window.location.reload();
+       window.location.reload();
+
       });
-   
-  
-
-
 }); 
 
