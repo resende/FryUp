@@ -54,12 +54,12 @@ $(function(){
     
   });
 
-  $('#PageRefresh').click(function() {
+    $('#PageRefresh').click(function() {
+        location.reload();
+      });
    
-              location.reload();
-   
-    });
-   
+
+
 
 }); 
 

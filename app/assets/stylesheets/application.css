@@ -74,16 +74,23 @@ background-size: 100%;
 
 
 .plate-items {
-
+  height: 350px; 
+  width: 300px;
+  border: 1px solid black; 
+  margin: 0 auto;
+  margin-top: 120px; 
+  z-index: 0; 
+}
+/*padding: 0; 
 margin-top: 0px; 
 padding-bottom: 0; 
 margin-bottom: 0; 
-height: 160px; 
-width: 160px;
+height: 300px; 
+width: 300px;
 border: 1px solid black; 
-display: inline-block;
+display: inline-block;*/
 /*margin: 50px; */
-}
+
 
 /*FOOD ITEMS*/
 
@@ -102,7 +109,7 @@ display: inline-block;
  font-family: 'Economica', sans-serif; 
  font-size: 36px;
  background-color: white; 
- 
+
 }
 
 
