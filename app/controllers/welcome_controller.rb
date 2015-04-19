@@ -4,7 +4,7 @@ class WelcomeController < ApplicationController
   end
   
   # def index
-  #   @Plates = Plate.all
+  #   @plates = Plate.all
   # end
 
 

@@ -36,7 +36,6 @@ $(function(){
       var total = parseInt($(".total-calories").text());
       console.log(total)
     
-  
      
       // var draggableId = ui.draggable.attr("data-weight");
       var a = ui.draggable.clone(); 
@@ -54,5 +53,13 @@ $(function(){
       }
     
   });
+
+  $('#PageRefresh').click(function() {
+   
+              location.reload();
+   
+    });
+   
+
 }); 
 

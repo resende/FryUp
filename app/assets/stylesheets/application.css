@@ -56,8 +56,8 @@ ul {
 }
 
 img {
- height: 50px; 
- width: 50px; 
+ height: 150px; 
+ width: 150px; 
  }
 
  /* PLATE */
@@ -65,15 +65,21 @@ img {
 .plate {
 border: dotted 1px black;
 float: right;
-width: 90%;
+width: 600px;
 height: 600px;
 background-image: url(plate.png); margin:0 auto;
+background-size: 100%;
+
 }
+
 
 .plate-items {
 
-height: 90px; 
-width: 90px;
+margin-top: 0px; 
+padding-bottom: 0; 
+margin-bottom: 0; 
+height: 160px; 
+width: 160px;
 border: 1px solid black; 
 display: inline-block;
 /*margin: 50px; */
@@ -86,4 +92,17 @@ display: inline-block;
  width: 100px; 
  height: 100px; 
 }
+
+/*RESET BUTTON */
+
+.reset-button {
+ border: 1px solid white; 
+ width: 100px; 
+ height: 50px; 
+ font-family: 'Economica', sans-serif; 
+ font-size: 36px;
+ background-color: white; 
+ 
+}
+
 
