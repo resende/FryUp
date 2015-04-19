@@ -1,0 +1,89 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ /*  SECTIONS  */
+
+/*MAIN BODY*/
+
+
+body {
+ background-image: url(tablecloth_background.png);
+ font-family: 'Economica', sans-serif; 
+}
+
+/*NAV BAR */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: red; 
+  color: white;    
+  position: fixed;
+  width: 100%; 
+  margin-top: -0;
+}
+
+.title {
+  float: left;
+  font-size: 72px; 
+  padding-left: 10px; 
+}
+
+.calories {
+  float: right;
+  padding-right: 20px; 
+  font-size: 72px; 
+}
+
+.number {
+  float: right; 
+  padding-right: 60px; 
+  font-size: 72px; 
+}
+
+img {
+ height: 50px; 
+ width: 50px; 
+ }
+
+ /* PLATE */
+
+.plate {
+border: dotted 1px black;
+float: right;
+width: 90%;
+height: 600px;
+background-image: url(plate.png); margin:0 auto;
+}
+
+.plate-items {
+
+height: 90px; 
+width: 90px;
+border: 1px solid black; 
+display: inline-block;
+/*margin: 50px; */
+}
+
+/*FOOD ITEMS*/
+
+.food-items {
+ border: 1px solid black; 
+ width: 100px; 
+ height: 100px; 
+}
+
