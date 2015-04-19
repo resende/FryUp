@@ -27,16 +27,23 @@ $(function(){
   });
 
 
-  $( ".idv-item" ).draggable({ revert: 'invalid', helper: 'clone' });
-    
+  $( ".idv-item" ).draggable({        
+      revert: 'invalid', 
+      helper: 'clone',
+
+    });
+
+
+
   $(".plate-items").droppable({ 
     accept: ".idv-item",
+    
     drop: function(event, ui) {
       var draggableId = ui.draggable.attr("data-calories");
       var total = parseInt($(".total-calories").text());
       console.log(total)
-    
-     
+
+
       // var draggableId = ui.draggable.attr("data-weight");
       var a = ui.draggable.clone(); 
       $(this).append(a);
@@ -58,7 +65,7 @@ $(function(){
         location.reload();
       });
    
-
+  
 
 
 }); 
