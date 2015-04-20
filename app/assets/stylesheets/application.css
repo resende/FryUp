@@ -571,7 +571,7 @@ img {
  /* PLATE */
 
 .plate {
-  border: dotted 1px black;
+  /*border: dotted 1px black;*/
   float: right;
   width: 700px;
   height: 700px;
@@ -583,9 +583,9 @@ img {
 .plate-items {
   height: 400px; 
   width: 400px;
- /* border: 1px solid black; */
+/*  border: 1px solid black; */
   margin: 0 auto;
-  margin-top: 100px; 
+  margin-top: 135px; 
   z-index: 0; 
   text-align: center;
 }
@@ -593,7 +593,7 @@ img {
 /*FOOD ITEMS*/
 
 .food-items {
-/*  border: 1px solid black; */
+ /* border: 1px solid black; */
   width: 235px; 
   text-align: center; 
   margin-left: 150px;
