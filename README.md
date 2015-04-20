@@ -1,6 +1,6 @@
-== README
 
-
+FRY UP GENERATOR
                                                       
-BIT OF FUN WITH JAVASCRIPT
+A BIT OF FUN WITH JAVASCRIPT
 
+![alt tag](bacon.png)
