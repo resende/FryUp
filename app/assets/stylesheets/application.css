@@ -522,7 +522,7 @@
 /*MAIN BODY*/
 
 body {
-  background-image: url(tablecloth_background.png);
+  background-image: url(https://s3-eu-west-1.amazonaws.com/resende-fryup/tablecloth_background.png);
   font-family: 'Economica', sans-serif; 
 }
 
@@ -575,7 +575,7 @@ img {
   float: right;
   width: 700px;
   height: 700px;
-  background-image: url(plate.png); margin:0 auto;
+  background-image: url(https://s3-eu-west-1.amazonaws.com/resende-fryup/plate.png); margin:0 auto;
   background-size: 100%;
   margin-top: -50px; 
 }
